@@ -4,8 +4,7 @@ namespace Zad3Es_lev
 {
     public class Solution
     {
-        public static int SearchInsert(int[] nums, int target)
-        {
+        public static int SearchInsert(int[] nums, int target) {
             int index = 0;
             for (int i = 0; i < nums.Length; i++)
             {
@@ -22,8 +21,7 @@ namespace Zad3Es_lev
             }
             return index;
         }
-        static void Main(string[] args)
-        {
+        static void Main(string[] args) {
             Console.WriteLine("Введите размер массива");
             int size = 0;
             try
